@@ -1,0 +1,50 @@
+body {
+    font-family: 'Open Sans';
+}
+
+.container {
+    width: 80vw;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {    
+    font-size: 20px;   
+    text-align: center; 
+    margin-top: -2rem;
+}
+
+.underline {
+    height: .15rem;
+    width: 5rem;
+    background: hsl(205, 89%, 70%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1rem;
+}
+
+.review {
+    background: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);    
+    margin: 1rem 15rem;
+    width: 50vw;
+    height: 40%;
+    text-align: center;
+    box-sizing: border-box;    
+}
+
+#person-img {
+    border-radius: 70%;
+}
+
+#author {
+    font-size: 16px;
+    
+}
+
