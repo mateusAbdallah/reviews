@@ -15,16 +15,16 @@ main {
 .title {    
     font-size: 20px;   
     text-align: center; 
-    margin-top: -2rem;
+    
 }
 
 .underline {
-    height: .15rem;
+    height: .30rem;
     width: 5rem;
     background: hsl(205, 89%, 70%);
     margin-left: auto;
     margin-right: auto;
-    margin-top: -1rem;
+    margin-top: 1rem;
 }
 
 .review {
@@ -40,11 +40,31 @@ main {
 }
 
 #person-img {
-    border-radius: 70%;
+    border-radius: 100%;
+    width: 30%;
 }
 
 #author {
-    font-size: 16px;
-    
+    font-size: 18px;
+    font-weight: 700;    
 }
+
+#job {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+button {
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.random-btn {
+    margin-top: 1rem;    
+}
+
 
